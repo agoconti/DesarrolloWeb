@@ -1,65 +1,70 @@
 body {
-    font-family: RALEWAY, sans-serif;
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: tomato;
-  }
+  font-family: RALEWAY, sans-serif;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: tomato;
+  position: relative;
+  min-height: 100vh;
+}
 
 .grid-container {
-    display: grid;
-    grid-template-rows: 200px 80px 300px 50px;
+  display: grid;
+  grid-template-rows: 200px 80px 300px 50px;
 }
 
 .header {
-    display: grid;
-    display: flex;
-    grid-template-columns: 100%;
-    grid-template-rows: 150px;
-    justify-content: center;
-    font-size: 120px;
-  }
+  display: grid;
+  display: flex;
+  grid-template-columns: 100%;
+  grid-template-rows: 150px;
+  justify-content: center;
+  font-size: 120px;
+}
 
 .nav {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 
 .menu {
-    text-align: center ;
+  text-align: center;
 }
 
 .main {
-    display: grid;
-    grid-template-rows: 30px 30px 30px;
-    align-content: space-around;
-    text-align: center;
+  display: grid;
+  align-content: space-around;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: tomato;
+  text-decoration: none;
+  color: tomato;
 }
 
 .titulo-servicios {
-    display: grid;
-    grid-template-rows: 150px;
+  display: grid;
+  grid-template-rows: 150px;
 }
 .servicios {
-    display: grid;
-    grid-template-rows: 90px 90px 90px 90px;
-    align-content: space-around;
-    text-align: center;
+  display: grid;
+  grid-template-rows: 90px 90px 90px 90px;
+  align-content: space-around;
+  text-align: center;
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 25px 25px 25px 25px;
-    justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .redes {
-    display: flex;
-    flex-direction: column;
+  display: grid;
+  justify-content: end;
+}
+
+.volumen {
+  display: flex;
+  justify-content: left;
 }
