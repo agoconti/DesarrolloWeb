@@ -31,6 +31,9 @@ a {
   color: tomato;
 }
 
+.cita {
+  font-style: italic;
+}
 .form {
   height: 60vh;
   align-items: center;
