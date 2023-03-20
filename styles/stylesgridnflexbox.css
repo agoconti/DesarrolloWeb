@@ -26,26 +26,9 @@ body {
   text-align: center;
 }
 
-.main {
-  display: grid;
-  align-content: space-around;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
   color: tomato;
-}
-
-.titulo-servicios {
-  display: grid;
-  grid-template-rows: 150px;
-}
-.servicios {
-  display: grid;
-  grid-template-rows: 90px 90px 90px 90px;
-  align-content: space-around;
-  text-align: center;
 }
 
 .form {
