@@ -29,63 +29,95 @@
 
   <body>
     <div class="row container-fluid">
-      <div class="col">
+      <div class="col-12 text-center">
         <header class="header">
           <a href="../index.html">WE SOLVE</a>
         </header>
       </div>
     </div>
-    <main>
-      <h2 class="contactanos">CONTACTANOS</h2>
-      <form action="#" method="post">
-        <input type="text" placeholder="NOMBRE" name="nombre" required />
 
-        <input type="email" placeholder="EMAIL" name="email" required />
-
-        <input
-          type="text"
-          placeholder="LUGAR DE RESIDENCIA"
-          name="lugar de residencia" />
-
-        <input type="text" placeholder="TELÉFONO" name="telefono" />
-
-        <!--No sé cómo lograr que la primera opción del desplegable no sea una opción que se pueda elegir, sino que quede como título informativo-->
-        <select name="motivo" id="motivo">
-          <option value="motivo">SELECCIONÁ EL MOTIVO DE TU CONSULTA</option>
-          <option value="info sobre servicios">
-            Informacion sobre servicios
-          </option>
-          <option value="presupuesto">Presupuesto para servicios</option>
-          <option value="otro">Otro</option>
-        </select>
-        <textarea
-          placeholder="Ingresá tu consulta o comentario acá"
-          required></textarea>
-        <button>ENVIAR</button>
-        <!--FALTA AGREGAR UN CAPTCHA ANTES DEL BOTÓN DE ENVIAR-->
-      </form>
+    <main class="row mt-5 container-fluid text-center">
+      <h2 class="col-12">CONTACTANOS</h2>
     </main>
-    <p><a href="../index.html">Quiero volver</a></p>
 
-    <footer class="container-fluid footer">
+    <section class="container-fluid mt-3">
+      <div class="form row mt-2 justify-content-center">
+        <form class="col-lg-6 col-sm-6 m-5" action="#" method="post">
+          <div class="form-group opacity-25 mb-3">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="nombre completo"
+              name="nombre"
+              required />
+          </div>
+          <div class="form-group opacity-25 mb-3">
+            <input
+              class="form-control"
+              type="email"
+              placeholder="tu@email.com"
+              name="email"
+              required />
+          </div>
+          <div class="form-group opacity-25 mb-3">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="lugar de residencia"
+              name="lugar de residencia" />
+          </div>
+          <div class="form-group opacity-25 mb-3">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="teléfono"
+              name="telefono" />
+          </div>
+          <!--No sé cómo lograr que la primera opción del desplegable no sea una opción que se pueda elegir, sino que quede como título informativo-->
+          <div class="form-group opacity-25 mb-3">
+            <select class="form-control" name="motivo" id="motivo">
+              <option value="motivo">elegí el motivo de tu consulta</option>
+              <option value="info sobre servicios">
+                Informacion sobre servicios
+              </option>
+              <option value="presupuesto">Presupuesto para servicios</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control opacity-25 mb-3"
+              placeholder="Ingresá tu consulta o comentario acá"
+              required></textarea>
+          </div>
+          <button class="btn btn-outline-danger btn-block">ENVIAR</button>
+          <!--FALTA AGREGAR UN CAPTCHA ANTES DEL BOTÓN DE ENVIAR-->
+        </form>
+      </div>
+    </section>
+    <p class="row container-fluid mt-5">
+      <a href="../index.html">Quiero volver</a>
+    </p>
+
+    <footer class="footer">
       <!--acá va el hipervinculo para la música que suena en la web-->
-      <div class="row">
-        <div class="col-2 p-5 volumen">
+      <div class="row container-fluid">
+        <div class="col-6 p-5 volumen">
           <i class="fa-solid fa-volume-high fa-2x"></i>
         </div>
-        <div class="col-10 redes">
+        <div class="col-6 redes">
           <div class="row">
-            <div class="col-4">
+            <div class="col-3">
               <a href="https://www.twitch.tv/"
                 ><i class="fa-brands fa-twitch fa-3x p-5"></i
               ></a>
             </div>
-            <div class="col-4">
+            <div class="col-3">
               <a href="https://www.instagram.com/"
                 ><i class="fa-brands fa-instagram fa-3x p-5"></i
               ></a>
             </div>
-            <div class="col-4">
+            <div class="col-3">
               <a href="https://twitter.com/?lang=es"
                 ><i class="fa-brands fa-twitter fa-3x p-5"></i
               ></a>
