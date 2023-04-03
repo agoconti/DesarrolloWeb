@@ -1,0 +1,65 @@
+body {
+    font-family: RALEWAY, sans-serif;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: tomato;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 80px 300px 50px;
+}
+
+.header {
+    display: grid;
+    display: flex;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px;
+    justify-content: center;
+    font-size: 120px;
+  }
+
+.nav {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+}
+
+.menu {
+    text-align: center ;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+    align-content: space-around;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.titulo-servicios {
+    display: grid;
+    grid-template-rows: 150px;
+}
+.servicios {
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px;
+    align-content: space-around;
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px;
+    justify-content: space-around;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}

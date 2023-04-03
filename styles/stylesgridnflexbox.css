@@ -1,29 +1,32 @@
-body {
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: tomato;
   font-family: RALEWAY, sans-serif;
+}
+
+body {
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: tomato;
   position: relative;
   min-height: 100vh;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-rows: 200px 80px 300px 50px;
 }
 
 .header {
   font-size: 8vh;
 }
 
-.nav {
+.navbar {
   display: grid;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
 }
 
-.menu {
-  text-align: center;
+.nav-item {
+  color: tomato;
 }
 
 a {
