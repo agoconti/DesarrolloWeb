@@ -19,14 +19,30 @@ body {
 }
 
 .navbar {
-  display: grid;
-  justify-content: space-around;
-  align-items: center;
   height: 10vh;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.navbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item {
   color: tomato;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+  transform: scale(1.5);
+  transition-duration: 400ms;
 }
 
 a {
@@ -34,22 +50,33 @@ a {
   color: tomato;
 }
 
+main {
+  height: 60vh;
+}
+
 .cita {
   font-style: italic;
 }
+
 .form {
   height: 60vh;
   align-items: center;
 }
+
 .footer {
-  position: relative;
   bottom: 0;
   width: 100%;
+  position: static;
 }
 
 .redes {
   display: grid;
   justify-content: stretch;
+}
+
+.redes-item {
+  display: flex;
+  justify-content: right;
 }
 
 .volumen {
