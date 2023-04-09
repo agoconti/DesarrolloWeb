@@ -1,1 +1,17 @@
+@use 'mixins';
+@use 'header';
 @use 'navbar';
+@use 'footer';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ff6347;
+  font-family: RALEWAY, sans-serif; }
+
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh; }

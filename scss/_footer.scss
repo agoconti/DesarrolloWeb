@@ -1,0 +1,26 @@
+@import "mixins";
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: static;
+
+    .redes {
+        display: grid;
+        justify-content: stretch;
+
+        .redes-item {
+            display: flex;
+            justify-content: right;
+        }
+        .volumen{
+            display: flex;
+            justify-content: left;
+        } 
+    }
+    .copyright {
+        @include center-flexbox;
+        color: $color-secondary;
+        font-size: 12px;
+    }
+}

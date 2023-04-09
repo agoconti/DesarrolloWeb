@@ -1,1 +1,27 @@
-@use 'navbar';
+@import 'scss/mixins';
+@import 'scss/header';
+@import 'scss/navbar';
+@import 'scss/footer';
+
+
+$color-primary: #007bff;
+$color-secondary: #6c757d;
+$color-success: #28a745;
+$color-info: #17a2b8;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ff6347;
+    font-family: RALEWAY, sans-serif;
+}
+  
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+

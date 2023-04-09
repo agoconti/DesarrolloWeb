@@ -1,6 +1,27 @@
+@import "mixins";
+
 .navbar {
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
     height: 10vh;
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+
+        .navbar-button {
+            @include center-flexbox;
+        }
+
+        .nav-item {
+            color: $color-primary;
+            text-decoration: none;
+            
+            &:hover {
+                color: $color-primary;
+                transform: scale(1.5);
+                @include transition-all(0.3s);
+            }
+        }
+
+    }
 }

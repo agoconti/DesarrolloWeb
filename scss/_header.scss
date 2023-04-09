@@ -1,0 +1,6 @@
+@import "mixins";
+
+.header {
+    font-size: 8vh;
+    @include center-flexbox;
+}
