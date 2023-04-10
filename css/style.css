@@ -1,12 +1,8 @@
-@use 'mixins';
-@use 'header';
-@use 'navbar';
-@use 'footer';
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ff6347;
+  color: #251f1e;
   font-family: RALEWAY, sans-serif; }
 
 body {
@@ -15,3 +11,49 @@ body {
   background-size: cover;
   position: relative;
   min-height: 100vh; }
+
+.header {
+  font-size: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navbar {
+  height: 10vh; }
+  .navbar .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw; }
+    .navbar .navbar-nav .navbar-button {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .navbar .navbar-nav .nav-item {
+      color: #251f1e;
+      text-decoration: none; }
+      .navbar .navbar-nav .nav-item:hover {
+        color: #251f1e;
+        transform: scale(1.5);
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out; }
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: static; }
+  .footer .redes {
+    display: grid;
+    justify-content: stretch; }
+    .footer .redes .redes-item {
+      display: flex;
+      justify-content: right; }
+    .footer .redes .volumen {
+      display: flex;
+      justify-content: left; }
+  .footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #251f1e;
+    font-size: 12px; }

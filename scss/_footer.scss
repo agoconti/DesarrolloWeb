@@ -1,26 +1,27 @@
 @import "mixins";
+$color-primary: #251f1e;
 
 .footer {
-    bottom: 0;
-    width: 100%;
-    position: static;
+  bottom: 0;
+  width: 100%;
+  position: static;
 
-    .redes {
-        display: grid;
-        justify-content: stretch;
+  .redes {
+    display: grid;
+    justify-content: stretch;
 
-        .redes-item {
-            display: flex;
-            justify-content: right;
-        }
-        .volumen{
-            display: flex;
-            justify-content: left;
-        } 
+    .redes-item {
+      display: flex;
+      justify-content: right;
     }
-    .copyright {
-        @include center-flexbox;
-        color: $color-secondary;
-        font-size: 12px;
+    .volumen {
+      display: flex;
+      justify-content: left;
     }
+  }
+  .copyright {
+    @include center-flexbox;
+    color: $color-primary;
+    font-size: 12px;
+  }
 }
