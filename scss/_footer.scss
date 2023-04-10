@@ -1,27 +1,20 @@
-@import "mixins";
-$color-primary: #251f1e;
+$footer-padding: 30px;
+$header-font-size: 8vh;
+$logo-font-size: 30px;
+$logo-font-weight: 700;
+$logo-height: 10vh;
+$navbar-height: 10vh;
+$navbar-width: 85%;
+$nav-item-color: #251f1e;
+$nav-item-hover-color: #251f1e;
 
 .footer {
   bottom: 0;
   width: 100%;
-  position: static;
+  position: absolute;
+  padding: $footer-padding;
+}
 
-  .redes {
-    display: grid;
-    justify-content: stretch;
-
-    .redes-item {
-      display: flex;
-      justify-content: right;
-    }
-    .volumen {
-      display: flex;
-      justify-content: left;
-    }
-  }
-  .copyright {
-    @include center-flexbox;
-    color: $color-primary;
-    font-size: 12px;
-  }
+footer i {
+  color: #fff;
 }
