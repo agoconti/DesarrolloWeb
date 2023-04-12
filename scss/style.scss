@@ -16,17 +16,18 @@ body {
   background-size: cover;
   position: relative;
   min-height: 100vh;
-}
-
-a {
-  text-decoration: none;
-  color: $color-gris1;
+  text-shadow: #fff;
 }
 
 header,
 footer {
   background-color: $color-gris2;
   color: $color-blanco !important;
+}
+
+a {
+  text-decoration: none;
+  color: $color-gris1;
 }
 
 .logo a {
@@ -43,10 +44,10 @@ footer {
   text-decoration: none;
 }
 
-@import "mixins";
+@import "footer";
 
 @import "header";
 
 @import "navbar";
 
-@import "footer";
+@import "mixins";

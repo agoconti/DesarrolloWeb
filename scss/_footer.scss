@@ -8,5 +8,11 @@ $color-blanco: #fff;
 
   i {
     color: $color-blanco;
+
+    &:hover {
+      color: $color-gris1;
+      transform: scale(1.3);
+      transition: 0.4s;
+    }
   }
 }

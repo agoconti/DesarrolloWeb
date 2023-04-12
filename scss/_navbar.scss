@@ -1,5 +1,5 @@
 $navbar-height: 10vh;
-$navbar-width: 85%;
+$navbar-width: 100%;
 $color-gris1: #251f1e;
 $color-blanco: #fff;
 
@@ -24,6 +24,8 @@ $color-blanco: #fff;
 
       &:hover {
         color: $color-gris1;
+        transform: scale(1.3);
+        transition: 0.4s;
       }
     }
 
