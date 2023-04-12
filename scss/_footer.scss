@@ -1,20 +1,12 @@
-$footer-padding: 30px;
-$header-font-size: 8vh;
-$logo-font-size: 30px;
-$logo-font-weight: 700;
-$logo-height: 10vh;
-$navbar-height: 10vh;
-$navbar-width: 85%;
-$nav-item-color: #251f1e;
-$nav-item-hover-color: #251f1e;
+$color-blanco: #fff;
 
 .footer {
   bottom: 0;
   width: 100%;
   position: absolute;
-  padding: $footer-padding;
-}
+  padding: 30px;
 
-footer i {
-  color: #fff;
+  i {
+    color: $color-blanco;
+  }
 }

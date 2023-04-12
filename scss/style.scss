@@ -1,8 +1,12 @@
+$color-gris1: #251f1e;
+$color-blanco: #fff;
+$color-gris2: #333;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #251f1e;
+  color: $color-gris1;
   font-family: RALEWAY, sans-serif;
 }
 
@@ -16,24 +20,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #251f1e;
+  color: $color-gris1;
 }
 
 header,
 footer {
-  background-color: #333;
-  color: #fff !important;
-}
-
-.header {
-  font-size: 8vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-desk {
-  display: flex;
+  background-color: $color-gris2;
+  color: $color-blanco !important;
 }
 
 .logo a {
@@ -44,67 +37,16 @@ footer {
   display: inline-flex;
   font-size: 30px;
   font-weight: 700;
-  color: #fff;
+  color: $color-blanco;
   align-items: center;
   height: 10vh;
   text-decoration: none;
 }
 
-.navbar {
-  height: 10vh;
-  width: 85%;
-  justify-content: space-around;
-}
-.navbar .navbar-nav {
-  display: flex;
-  justify-content: space-between;
-}
-.navbar .navbar-nav .navbar-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navbar .navbar-nav .nav-item {
-  color: #251f1e;
-  text-decoration: none;
-}
-.navbar .navbar-nav .nav-item:hover {
-  color: #251f1e;
-}
-.nav-link {
-  color: #fff !important;
-}
+@import "mixins";
 
-.footer {
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  padding: 30px;
-}
-footer i {
-  color: #fff;
-}
+@import "header";
 
-@media screen and (max-width: 768px) {
-  .nav-link,
-  .logo a {
-    color: #333 !important;
-  }
-  .navbar {
-    width: 100% !important;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .logo a {
-    font-size: 27px;
-  }
-}
-@media screen and (max-width: 991px) {
-  .logo a {
-    font-size: 16px;
-    margin-right: 20px;
-  }
-  .navbar {
-    font-size: 13px;
-  }
-}
+@import "navbar";
+
+@import "footer";

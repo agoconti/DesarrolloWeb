@@ -1,15 +1,27 @@
-@mixin responsive($size) {
-  @if $size == "tablet" {
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-      @content;
+$color-gris2: #333;
+
+@mixin responsive {
+  @media screen and (max-width: 768px) {
+    .nav-link,
+    .logo a {
+      color: $color-gris2 !important;
     }
-  } @else if $size == "mobile" {
-    @media screen and (max-width: 991px) {
-      @content;
+    .navbar {
+      width: 100% !important;
     }
-  } @else {
-    @media screen and (max-width: 768px) {
-      @content;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .logo a {
+      font-size: 27px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .logo a {
+      font-size: 16px;
+      margin-right: 20px;
+    }
+    .navbar {
+      font-size: 13px;
     }
   }
 }

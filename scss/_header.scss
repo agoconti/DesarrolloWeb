@@ -1,64 +1,10 @@
-$footer-padding: 30px;
-$header-font-size: 8vh;
-$logo-font-size: 30px;
-$logo-font-weight: 700;
-$logo-height: 10vh;
-$navbar-height: 10vh;
-$navbar-width: 85%;
-$nav-item-color: #251f1e;
-$nav-item-hover-color: #251f1e;
-
 .header {
-  font-size: $header-font-size;
+  font-size: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.header-desk {
-  display: flex;
-}
-
-.logo a {
-  width: auto;
-  max-width: none;
-  padding: 0;
-  margin: 0;
-  display: inline-flex;
-  font-size: $logo-font-size;
-  font-weight: $logo-font-weight;
-  color: #fff;
-  align-items: center;
-  height: $logo-height;
-  text-decoration: none;
-}
-
-.navbar {
-  height: $navbar-height;
-  width: $navbar-width;
-  justify-content: space-around;
-}
-
-.navbar .navbar-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar .navbar-nav .navbar-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar .navbar-nav .nav-item {
-  color: $nav-item-color;
-  text-decoration: none;
-}
-
-.navbar .navbar-nav .nav-item:hover {
-  color: $nav-item-hover-color;
-}
-
-.nav-link {
-  color: #fff !important;
+  &-desk {
+    display: flex;
+  }
 }
