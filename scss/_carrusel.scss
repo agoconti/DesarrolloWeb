@@ -1,4 +1,18 @@
-.carrusel {
+$color-gris1: #251f1e;
+
+.carousel {
   display: flex;
   justify-content: center;
+
+  &-item {
+    object-fit: scale-down;
+    height: 50vh;
+  }
+
+  &-caption {
+    position: sticky;
+    text-decoration-style: solid;
+    font-weight: bolder;
+    color: $color-gris1;
+  }
 }

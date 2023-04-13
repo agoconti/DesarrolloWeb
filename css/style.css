@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #251f1e;
   font-family: RALEWAY, sans-serif; }
 
 body {
@@ -34,9 +33,17 @@ a {
   height: 10vh;
   text-decoration: none; }
 
-.carrusel {
+.carousel {
   display: flex;
   justify-content: center; }
+  .carousel-item {
+    object-fit: scale-down;
+    height: 50vh; }
+  .carousel-caption {
+    position: sticky;
+    text-decoration-style: solid;
+    font-weight: bolder;
+    color: #251f1e; }
 
 .footer {
   bottom: 0;
