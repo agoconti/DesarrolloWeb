@@ -16,7 +16,6 @@ body {
   background-size: cover;
   position: relative;
   min-height: 100vh;
-  text-shadow: #fff;
 }
 
 header,
@@ -43,6 +42,7 @@ a {
   height: 10vh;
   text-decoration: none;
 }
+@import "carrusel";
 
 @import "footer";
 

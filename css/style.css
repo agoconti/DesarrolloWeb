@@ -10,8 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 100vh;
-  text-shadow: #fff; }
+  min-height: 100vh; }
 
 header,
 footer {
@@ -34,6 +33,10 @@ a {
   align-items: center;
   height: 10vh;
   text-decoration: none; }
+
+.carrusel {
+  display: flex;
+  justify-content: center; }
 
 .footer {
   bottom: 0;
