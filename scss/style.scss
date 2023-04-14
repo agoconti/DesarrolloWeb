@@ -32,6 +32,7 @@ header,
 footer {
   background-color: $color-gris2;
   color: $color-blanco !important;
+  padding: 25px;
 }
 
 a {
@@ -51,7 +52,9 @@ a {
   align-items: center;
   height: 10vh;
   text-decoration: none;
+  line-height: 1.2;
 }
+
 @import "carrusel";
 
 @import "footer";
