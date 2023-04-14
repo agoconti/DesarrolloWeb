@@ -20,7 +20,7 @@ $color-gris2: #333;
     }
   }
   .nav-link {
-    color: $color-blanco !important;
+    color: $color-blanco;
     text-decoration: none;
 
     &:hover {
@@ -33,4 +33,12 @@ $color-gris2: #333;
 
 .navbar-brand.logo {
   color: $color-blanco;
+}
+
+.navbar-toggler {
+  background-color: $color-blanco;
+}
+
+.menu-mobile {
+  color: $color-gris2 !important;
 }

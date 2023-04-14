@@ -40,7 +40,7 @@ a {
   justify-content: center; }
   .carousel-item {
     object-fit: scale-down;
-    height: 50vh; }
+    height: 80% !important; }
   .carousel-caption {
     position: sticky;
     text-decoration-style: solid;
@@ -98,7 +98,7 @@ iframe {
       justify-content: center;
       align-items: center; }
   .navbar .nav-link {
-    color: #fff !important;
+    color: #fff;
     text-decoration: none; }
     .navbar .nav-link:hover {
       color: #251f1e;
@@ -107,3 +107,9 @@ iframe {
 
 .navbar-brand.logo {
   color: #fff; }
+
+.navbar-toggler {
+  background-color: #fff; }
+
+.menu-mobile {
+  color: #333 !important; }
