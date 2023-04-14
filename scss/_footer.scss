@@ -5,6 +5,12 @@ $color-blanco: #fff;
   width: 100%;
   position: absolute;
   padding: 30px;
+  display: flex;
+
+  &-responsive {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   i {
     color: $color-blanco;
@@ -15,4 +21,20 @@ $color-blanco: #fff;
       transition: 0.4s;
     }
   }
+}
+
+.redes-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.map {
+  display: flex;
+  justify-content: right;
+}
+
+iframe {
+  display: block;
+  border: none;
+  height: auto;
 }

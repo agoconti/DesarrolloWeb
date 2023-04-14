@@ -22,16 +22,16 @@ $color-gris2: #333;
     .nav-item {
       color: $color-gris1;
       text-decoration: none;
+    }
+
+    .nav-link {
+      color: $color-blanco !important;
 
       &:hover {
         color: $color-gris1;
         transform: scale(1.3);
         transition: 0.4s;
       }
-    }
-
-    .nav-link {
-      color: $color-blanco !important;
     }
   }
 }

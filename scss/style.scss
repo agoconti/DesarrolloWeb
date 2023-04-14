@@ -10,7 +10,18 @@ $color-gris2: #333;
 }
 
 body {
-  background-image: url("../img/background.jpg");
+  background-image: radial-gradient(
+    circle at 34.03% 77.66%,
+    #efffff 0,
+    #deffff 12.5%,
+    #cbfffb 25%,
+    #b5fbf6 37.5%,
+    #9df2f2 50%,
+    #83e9ef 62.5%,
+    #68e0ee 75%,
+    #4bd7ef 87.5%,
+    #27cff0 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
