@@ -35,6 +35,12 @@ a {
   text-decoration: none;
   line-height: 1.2; }
 
+.form {
+  height: 44vh; }
+
+.citas {
+  font-style: italic; }
+
 .carousel {
   display: flex;
   justify-content: center; }
@@ -84,7 +90,9 @@ iframe {
   justify-content: center;
   align-items: center; }
   .header-desk {
-    display: flex; }
+    display: flex;
+    justify-content: center;
+    height: 10vh; }
 
 .navbar {
   height: 10vh;
